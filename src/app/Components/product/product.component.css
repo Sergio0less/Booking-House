@@ -1,3 +1,12 @@
+.btn {
+    background-color: #326AC9;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4vw;
+    margin: 5px;
+}
+
 p{
     font-size: 2vw;
     color: #464646;
@@ -25,13 +34,14 @@ button {
     border-radius: 3px;
     font-family: 'Playfair Display', serif;
     font-size: 1.4vw;
-    padding: 10px 30px;    
+    padding: 10px 20px;
+    margin: 5px;
 }
 
 button {
     transition-duration: 0.4s;
 }
-  
+
 button:hover {
     background-color: #326ac9;
     color: white;
@@ -39,13 +49,13 @@ button:hover {
 
 .card-content{
     display: grid;
-    padding: 20px;
+    padding: 10px;
 }
 
 .items {
     align-self: center;
     margin-bottom: 0;
-      
+
 }
 
 .carta {

@@ -1,0 +1,20 @@
+.encabezado, .cotiza{
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.encabezado {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #326AC9;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.cotiza {
+    padding-top: 40px;
+    margin: 20px;
+}

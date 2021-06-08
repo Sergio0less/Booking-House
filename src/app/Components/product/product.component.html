@@ -1,25 +1,24 @@
-  <div class="col l10 s6 m6 componente">
-    <div class="card horizontal carta">
-      <div class="card-image">
-        <img src="./assets/imgs/{{data.img}}.jpg">
-      </div>
-      
-      <div class="card-stacked">
-        <div class="card-content">
-          <div class="row items">
-            <div class="col l12"><p>{{data.objeto}}</p></div>
-            <div class="col l12"><p>{{data.locacion}}</p></div>
-            <div class="col l12"><small id="subtitulo">{{data.oferta}}</small></div>
-            
-            <div class="col l6"><span>{{data.precio}}</span></div>
-            <div class="col l6 right-align boton">
-              <a routerLink="/des-producto">
-                <button>Ver más</button>
-              </a>
-              <a class="btn" routerLinkActive="active" routerLink="/cotizacion">Cotizar</a>
-            </div>
-        </div>
-      </div>
+<div class="col l10 s6 m6 componente">
+  <div class="card horizontal carta">
+    <div class="card-image">
+      <img src="./assets/imgs/{{data.img}}.jpg">
     </div>
 
+    <div class="card-stacked">
+      <div class="card-content">
+        <div class="row items">
+          <div class="col l12"><p>{{data.objeto}}</p></div>
+          <div class="col l12"><p>{{data.locacion}}</p></div>
+          <div class="col l12"><small id="subtitulo">{{data.oferta}}</small></div>
+
+          <div class="col l5"><span>{{data.precio}}</span></div>
+          <div class="col l7 right-align boton">
+            <a routerLink="/des-producto">
+              <button>Ver más</button>
+            </a>
+            <a class="btn" (click)="agregarCotiza()">Cotizar</a>
+          </div>
+      </div>
+    </div>
   </div>
+</div>

@@ -1,5 +1,5 @@
 .home{
-    padding: 180px 5%;
+    padding: 250px 5%;
     background-image: url('../../../assets/rsc/background.jpg');
     background-position: center;
     background-size: cover;
@@ -18,7 +18,7 @@ p{
 }
 
 h1 {
-    font-size: 1vw;
+    font-size: 70px;
     font-family: 'Playfair Display', serif;
 }
 
@@ -30,7 +30,7 @@ h2 {
 .custom-btn {
     font-size: 18px;
     background-color: #326AC9;
-    width: 160px;
+    width: 25%;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -57,13 +57,62 @@ h2 {
 }
 
 .body h4 {
-    font-size: 24;
+    font-size: 22px;
     color: grey;
+}
+
+.card {
+    background-color: white;
+}
+
+.card:hover {
+    background-color: whitesmoke;
 }
 
 .about{
     background-color: #F6F8F7;
 }
+
+.sobrenosotros {
+    margin: 30px;
+}
+
 .reviews-title{
     text-align: center;
+}
+
+.icono {
+    padding: 20px;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    padding: 20px;
+}
+
+.reviews p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.carta {
+    background-color: whitesmoke;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.2s;
+}
+
+.carta:hover {
+    transform: translateY(-10px);
+}
+
+.carta h4 {
+    font-size: 26px;
+}
+
+.carta i{
+    color: #326AC9;
 }
