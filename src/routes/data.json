@@ -1,20 +1,23 @@
 [
     {
-        "id" : "Casa en",
+        "id" : "003490",
+        "objeto" : "Casa en",
         "locacion" : "Montecarlo I",
         "oferta" : "renta", 
         "precio" : "$3,400,000",
         "img" : "4"
     },
     {
-        "id" : "Casa en",
+        "id" : "003490",
+        "objeto" : "Casa en",
         "locacion" : "Colonia Pro-Hogar",
         "oferta" : "renta", 
         "precio" : "$1,600,000",
         "img" : "4"
     },
     {
-        "id" : "Casa en",
+        "id" : "003490",
+        "objeto" : "Casa en",
         "locacion" : "Colonia Independencia",
         "oferta" : "venta", 
         "precio" : "$2,690,000",
