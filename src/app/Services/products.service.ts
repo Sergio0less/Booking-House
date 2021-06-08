@@ -10,10 +10,16 @@ export class ProductsService {
   //SI DE UNA LLAMADA GRANDE TE TRAE UN MONTON DE DATOS --> ESTO PUEDE SERVIR PARA CREAR NUESTROS TEMPLATES
                          //patrimonio porque así se llama nuestra interface en carpeta "Models"
   /*variable-->*/ products: patrimonio[] | undefined ; /*en caso de que el producto no esté definido */
-
-  constructor( private http:HttpClient ){ }
+cotizar_items: patrimonio[] | undefined; //arreglo de los items que están en el carrito o apartado de cotizar
+constructor( private http:HttpClient ){ 
+  this.cotizar_items = [];
+}
   
   getProduct(){
     return this.http.get<patrimonio[]>(this.API_URL);
+  }
+  agregarCotiza(alquiler:patrimonio){
+    this.cotizar_items.push(alquiler);
+    console.log(this.cotizar_items);
   }
 }
