@@ -12,4 +12,8 @@ export class TarjetaComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  removeFromCotizar(){
+    
+  }
+
 }
