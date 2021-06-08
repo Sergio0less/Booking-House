@@ -1,1 +1,32 @@
-<p>tarjeta works!</p>
+<div class="col l10 s6 m6 componente">
+    <div class="card horizontal carta">
+      <div class="card-image">
+        <img src="./assets/imgs/{{product.img}}.jpg">
+      </div>
+      
+      <div class="card-stacked">
+        <div class="card-content">
+          <div class="row items">
+            <div class="col l12"><p>{{product.objeto}}</p></div>
+            <div class="col l12"><p>{{product.locacion}}</p></div>
+            <div class="col l12"><small id="subtitulo">{{product.oferta}}</small></div>
+            
+            <div class="col l6"><span>{{product.precio}}</span></div>
+            <div class="card-action center-align">
+                <div class="quantity row">
+                    <div class="col l7 valign wrapper">
+                        <a class="plus-btn col l1">
+                            <i class="material-icons">remove</i>
+                        </a>
+                        <input type="text" class="center-align col l2" value="{{product.qty_c}}">
+                        <a class="minus-btn col l1">
+                            <i class="material-icons">add</i>
+                        </a>
+                    </div>
+
+                </div>
+        </div>
+      </div>
+    </div>
+
+  </div>

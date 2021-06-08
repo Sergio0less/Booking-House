@@ -18,6 +18,11 @@ constructor( private http:HttpClient ){
   getProduct(){
     return this.http.get<patrimonio[]>(this.API_URL);
   }
+
+  getCotizacion(){
+    return this.cotizar_items = JSON.parse(localStorage.getItem('cotizacion') || '{}')
+  }
+
   agregarCotiza(alquiler:patrimonio)
   {
     alquiler.qty_c = 1
