@@ -6,8 +6,8 @@
             <div class="col l6 right-align"><a class="btn" routerLink="/vendedor">Pagar</a></div>
             <div class="col l6"><a class="btn" routerLink="/productos">Volver a catálogo</a></div>
         </div>
-        <div class="col l12">                                                           <!--recibes|| mandas-->
-            <app-tarjeta *ng="let product of productsService.getCotizacion()" [product] = "product"></app-tarjeta>
+        <div class="col s12">                                                           <!--recibes|| mandas-->
+            <app-tarjeta *ngFor="let product of productsService.getCotizacion()" [product] = "product"></app-tarjeta>
         </div>
     </div>
 </div>

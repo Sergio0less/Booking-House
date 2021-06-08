@@ -18,6 +18,16 @@ h1 {
     display: flex;
 }
 
+.info {
+    padding: 50px;
+}
+
+.info h1 {
+    color: #326AC9;
+}
+.info p {
+    color: black;
+}
 
 h1{
     font-weight: bold;
@@ -39,23 +49,23 @@ p {
     margin: 20px;
     
 }
-.row {
+
+.contenedor {
+    padding: 30px;
+}
+
+.contenedor h2, p {
     align-content: left;
     justify-content: left;
     text-align: left;
     color: #ffffff;
-    align-self: center;
 }
 
-  .a, .b, .c , .d {
-      background-color:#326AC9;
-      width: 240px;
-      height: 240px;
-      float: left;
-      padding: 20px;
-      margin: 20px;
-      align-self: center;
-  }
+.a, .b, .c , .d {
+    background-color:#326AC9;
+    padding: 20px;
+    text-align: center;
+}
 
 /***1200px***/
 @media only screen and (max-width:1200px){

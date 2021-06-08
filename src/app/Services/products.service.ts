@@ -45,6 +45,8 @@ constructor( private http:HttpClient ){
     }
 
     console.log(this.cotizar_items)
+
+    //window.location.reload();
   }
 
   isDuplicated(id:any){

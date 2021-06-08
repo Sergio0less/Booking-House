@@ -1,3 +1,11 @@
+#BtnVolver, #BtnCotizar {
+    border: 2px solid #326AC9;
+    color: #326AC9;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
 /* HEADER */
 
 .header{
